@@ -50,7 +50,7 @@ pub fn notice(text: &str) {
 /// Prepends `Warning` to the text and italicies
 // just a simple style change to convery importance to users
 pub fn warn(text: &str) {
-    println!("{}{}Warning: {}! {}\n", COLOR_BOLD, COLOR_YELLOW, text, COLOR_RESET);
+    println!("{}{}Warning: {}! {}", COLOR_BOLD, COLOR_YELLOW, text, COLOR_RESET);
 }
 
 /// Exit messages
